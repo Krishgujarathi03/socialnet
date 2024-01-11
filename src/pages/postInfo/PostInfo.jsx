@@ -131,6 +131,7 @@ function PostInfo() {
               {/* Post Content  */}
               <div className="content">
                 <div
+                  style={{ color: mode === "dark" ? "white" : "black" }}
                   className={`[&> h1]:text-[32px] [&>h1]:font-bold  [&>h1]:mb-2.5
                   ${
                     mode === "dark"
